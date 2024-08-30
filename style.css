@@ -1,0 +1,179 @@
+
+h1{
+    color: #dae4fd;
+    text-shadow: 10px 2px rgb(91, 73, 232) ;
+    text-indent: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 66px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+    line-height: 3;
+    word-spacing: 10px;
+    position: fixed; /* or position: sticky */
+    top: 0;
+    z-index: 2;
+    /*border: 4px solid #fff; /* Circle border color 
+  border-radius: 3.33%;
+border-width: 20%; /* Make the border a circle 
+  padding: -3px; /* Add some padding */
+    }
+
+
+    body {
+        background-image: url('wallpaper.png');
+        background-size: cover;
+        background-position: top;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: 1;
+      }
+  
+
+ul{
+color: #fffcfc;
+text-align: center;
+text-shadow: 5px 2px rgb(119, 116, 116);
+text-indent: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+font-size: 270%;
+line-height: 9;
+word-spacing: 10px;
+position: fixed; /* or position: sticky */
+top: 0;
+z-index: 2;
+
+}
+
+.temprature {
+    color: #fffcfc;
+    text-align: center;
+    text-shadow: 5px 2px rgb(119, 116, 116);
+    text-indent: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 270%;
+    line-height: 0.8;
+    word-spacing: 10px;
+    display: inline-block;
+    position: fixed; /* or position: sticky */
+    top: 450px;
+    left: 103px;
+z-index: 2;
+  }
+  
+  .temprature::after {
+    content: "";
+   
+    top: 550px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white */
+    border-radius: 7%; /* Oval shape */
+   
+    z-index: 1;
+    position: fixed; /* or position: sticky */
+
+z-index: 2;
+  }
+
+  .humidity {
+    color: #fffcfc;
+    text-align: center;
+    text-shadow: 5px 2px rgb(119, 116, 116);
+    text-indent: 730px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 270%;
+    line-height: 0.8;
+    word-spacing: 10px;
+    display: inline-block;
+    position: fixed; /* or position: sticky */
+    top: 450px;
+    left: 103px;
+z-index: 2;
+  }
+  
+  .humidity::after {
+    content: "";
+   
+    top: 550px;
+    left: 700px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white */
+    border-radius: 7%; /* Oval shape */
+   
+    z-index: 1;
+    position: fixed; /* or position: sticky */
+
+z-index: 2;
+  }
+
+  .Wind {
+    color: #fffcfc;
+    text-align: center;
+    text-shadow: 5px 2px rgb(119, 116, 116);
+    text-indent: 1400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 270%;
+    line-height: 0.8;
+    word-spacing: 10px;
+    display: inline-block;
+    position: fixed; 
+    top: 450px;
+    left: 103px;
+z-index: 2;
+  }
+  .Wind::after {
+    content: "";
+   
+    top: 550px;
+    left: 1300px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 7%; 
+    z-index: 1;
+    position: fixed; 
+
+z-index: 2;
+  }
+
+  .AQI{
+    color: #fffcfc;
+    text-align: center;
+    text-shadow: 5px 2px rgb(119, 116, 116);
+    text-indent: 1830px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 270%;
+    line-height: 0.8;
+    word-spacing: 10px;
+    display: inline-block;
+    position: fixed; /* or position: sticky */
+    top: 450px;
+    left: 103px;
+z-index: 2;
+  }
+  
+  .AQI::after{
+    content: "";
+   
+    top: 550px;
+    left: 1900px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white */
+    border-radius: 7%; /* Oval shape */
+   
+    z-index: 1;
+    position: fixed; /* or position: sticky */
+
+z-index: 2;
+  }
